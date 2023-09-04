@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css"/>
-    <script src:"script.js" defer></script>
+    <script type="module" src="script.js" defer></script>
 </head>
 <body>
     <h1 class="title"> My Grocery list</h1>
@@ -19,10 +19,6 @@
         <input id="newGrocery" autocomplete="off" type="text" placeholder="Add an item to list">
         <button id="addBtn" type="submit">add</button>
     </form>
-    <ul id="groceryList">
-      <li class="groceryItem">Pizza</li> 
-      <li class="groceryItem">Lemons</li>
-      <li class="groceryItem">Corn</li>
-    </ul>
+    <ul id="groceryList"></ul>
 </body>
 </html>
